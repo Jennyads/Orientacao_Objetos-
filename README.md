@@ -56,10 +56,12 @@ let endereco2 = new Endereco(123, 'Av. 9 de Julho', 'Jardim Apolo', 'São José 
 console.log(endereco.mostrarEndereco())
 console.log(endereco2.mostrarEndereco())
 
+```
+
 * As variáveis que armazenam objetos são especiais, são chamadas de referencias. São ponteiros implícitos.
 
 <h4> Referências </h4>
 
 Uma referência se refere a uma instância de uma classe -ou seja um objeto. Ao contrário dos tipos primitivos que mantêm seus valores na memória onde a variável é alocada, as referências não mantêm o valor do objeto ao qual se referem, ela apontam para o endereço do objeto na memória. Os objetos ficam, armazenados, no heap de memória.
 
-•Para entender: um heap de memóriaé um local namemóriaonde a memória pode ser alocada em acesso aleatório. Ao contrário da pilha em que a memória é alocada e liberada em uma ordem muito definida, os elementos de dados individuais alocados no heap são normalmente liberados de forma assíncrona entre si.
+* Um heap de memóriaé um local namemóriaonde a memória pode ser alocada em acesso aleatório. Ao contrário da pilha em que a memória é alocada e liberada em uma ordem muito definida, os elementos de dados individuais alocados no heap são normalmente liberados de forma assíncrona entre si.
