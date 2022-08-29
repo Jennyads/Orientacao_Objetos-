@@ -1,5 +1,3 @@
-<h5> Repositório criado para apresentar conceitos e códigos desenvolvidos na disciplina de Programação Orientada a Objetos. </h5>
-
 <h3> Programação Orientada a Objetos </h3>
 
 A programação orientada à objetos é um paradigma no qual os objetos do mundo real são vistos como entidades separadas com seu próprio estado, que é modificado apenas por procedimentos internos, chamados métodos.A criação e organização de objetos acontece a partir de classes, que são definidas pelo desenvolvedor.
