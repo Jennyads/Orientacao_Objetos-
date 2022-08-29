@@ -63,3 +63,60 @@ console.log(endereco2.mostrarEndereco())
 Uma referência se refere a uma instância de uma classe -ou seja um objeto. Ao contrário dos tipos primitivos que mantêm seus valores na memória onde a variável é alocada, as referências não mantêm o valor do objeto ao qual se referem, ela apontam para o endereço do objeto na memória. Os objetos ficam, armazenados, no heap de memória.
 
 * Um heap de memóriaé um local namemóriaonde a memória pode ser alocada em acesso aleatório. Ao contrário da pilha em que a memória é alocada e liberada em uma ordem muito definida, os elementos de dados individuais alocados no heap são normalmente liberados de forma assíncrona entre si.
+
+<h4> Encapsulamento </h4>
+
+Encapsulamento se refere ao agrupamento de dados, junto com os métodos que operam esses dados. Muitas linguagens de programação usam encapsulamento frequentemente na forma de classes. Assim, encapsulamento refere-se à restrição do acesso direto a alguns dos componentes de um objeto, encapsular dados, portanto, significa qualificar a forma de armazenar dados em objetos.
+
+O encapsulamento é um mecanismo de restrição do acesso direto a alguns componentes de um objeto, de forma que outros objetos não possam acessar os valores de todas as variáveis ou métodos de um objeto específico. O encapsulamento pode ser usado para ocultar ou proteger membros e métodos associados a uma classe ou objeto instanciado, do acesso direto de códigos externos.
+
+Para encapsular dados utiliza-se modificadores de acesso, palavras reservadas que modificam a forma de acesso aos dados.
+
+* Os atributos privados deixam de ser visíveis para fora do objeto e portanto, não podem ser modificados diretamente.
+* Os demais atributos públicos, que continuam visíveis, são modificáveis diretamente.
+* Para a linguagem TypeScript existem três modificadores de acesso, eles são: private, protected e public.A visibilidade padrão dos membros de uma classe é pública, ou seja, modificada pela palavra-chave public. Um membro público pode ser acessado em qualquer lugar. Quando não se declara o modificador o padrão aplicado é public.
+
+```
+export default class Empresa {
+    private razaoSocial: string 
+    nomeFantasia: string
+    private cnpj: string
+    enreco: Endereco
+    public telefones: Telefones[]
+    private funcionarios: Funcionario[]
+    
+    obterRazaoSocial(): string {
+        return this.razaoSocial.toLowerCase()
+    }
+}
+```
+Assim, encapsular significa acessar com restrição. A forma de fazer isto é através de métodos. O objetivo do encapsulamento é modificar a forma de acesso aos dados.O modificador private bloqueia, completamente, a visibilidade de um membro da classe a qualquer código fora do próprio corpo da classe.
+
+<h5> Método get e set </h5>
+
+Existem várias convenções entre os desenvolvedores que utilizam o paradigma de programação orientada à objetos. Uma delas é o uso de métodos get e set. A convenção está na nomenclatura dos métodos.
+
+* Métodos get/set são usados para acessar propriedades privadas e também outros valores que devam ser calculados.
+
+* Este tipo de implementação permite o acesso aos métodos como se fossem propriedades.
+
+```
+export default class Empresa {
+    private razaoSocial: string 
+    nomeFantasia: string
+    private cnpj: string
+    enreco: Endereco
+    public telefones: Telefones[]
+    private funcionarios: Funcionario[]
+    
+    getRazaoSocial(): string {
+        return this.razaoSocial.toLowerCase()
+    }
+    setRazaoSocial(razaoSocial: string) {
+        thus.razaoSocial = razaoSocial 
+ 
+ ```
+ * Set: coloca a dado
+ * get: pega o dado 
+ 
+
