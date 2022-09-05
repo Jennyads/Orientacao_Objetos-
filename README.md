@@ -119,7 +119,7 @@ export default class Empresa {
  * Set: coloca a dado
  * get: pega o dado 
  
- <h5> Polimorfismo e Herança</h5>
+ <h3> Polimorfismo e Herança</h3>
  
 * O polimorfismo é um recurso das linguagens de programação orientadas à objetos, que permite que uma rotina específica use variáveis de tipos diferentes, com nomes iguais, em momentos diferentes.
  
