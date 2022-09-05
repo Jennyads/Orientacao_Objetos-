@@ -119,4 +119,17 @@ export default class Empresa {
  * Set: coloca a dado
  * get: pega o dado 
  
+ <h5> Polimorfismo e Herança</h5>
+ 
+* O polimorfismo é um recurso das linguagens de programação orientadas à objetos, que permite que uma rotina específica use variáveis de tipos diferentes, com nomes iguais, em momentos diferentes.
+ 
+* Polimorfismo é a capacidade de uma linguagem de programação de apresentar a mesma interface para vários tipos de dados subjacentes diferentes.
+
+* Polimorfismo é a capacidade de diferentes objetos responderem de uma maneira única à mesma mensagem.
+
+Geralmente, o polimorfismo é obtido a partir da aplicação de outro recurso, que vem do paradigma de programação orientada à objetos. Este recurso é chamado de herança.Herança é um mecanismo no qual uma classe adquire a propriedade de outra classe. Com a herança, pode-se reutilizar os campos e métodos de uma classe existente. Consequentemente, a herança facilita a reutilização.
+
+<h4> Abstract </h4>
+    
+Transforma uma classe em abstrata. Uma classe restrita que não pode ser usada para criar objetos, para acessá-la deve ser herdada por outra classe.Transforma um método em abstrato. Métodos abstratos só podem ser declarados dentro de classes abstratas. Este tipo de método é declarado sem corpo, porque é um abstração! O corpo deve ser fornecido pela subclasse.
 
